@@ -18,9 +18,10 @@ export default function Navbar() {
           {" "}
           <Linkedin />{" "}
         </a>
-        <a href="/">
+
+        <a href="https://github.com/mansoorsabir200-sketch">
           {" "}
-          <Github />{" "}
+          <Github />
         </a>{" "}
         <a href="/">
           {" "}
