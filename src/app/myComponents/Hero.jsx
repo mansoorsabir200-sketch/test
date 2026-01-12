@@ -1,6 +1,8 @@
 "use client";
+import Link from "next/link";
 import { HERO_CONTENT } from "../data";
 import { motion } from "framer-motion";
+import { WhatsappIcon } from "../components/whatsappIcon";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -61,11 +63,11 @@ export default function Hero() {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="/"
-              className="bg-white rounded-full p-2 text-sm text-stone-800 mb-10"
+              href="https://wa.me/93700267728"
+              className=" w-43 text-center rounded-full flex items-center justify-center bg-green-600/55 hover:scale-103 duration-300 text-xl text-stone-100 p-2 gap-2 "
             >
-              {" "}
-              Download Resume
+              Contact Us
+              <WhatsappIcon className="size-8"/>
             </motion.a>
           </div>
         </motion.div>

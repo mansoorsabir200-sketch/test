@@ -43,30 +43,30 @@ export const PROJECTS = [
   {
     title: " task manager app",
     image: "/taskmanager.jpg",
-    description:
-      " this was a task manager app woud you like this this was a task manager app woud you like this ",
+    description: `The Task Manager App is a productivity-focused application designed to help users organize, track, and manage their daily tasks efficiently.
+Users can create tasks, set priorities, update progress, and keep track of deadlines through a clean and user-friendly interface. The app helps improve focus, organization, and time management.`,
     technologies: ["nextjs", " tailwindcss ", "postgerSql", "js"],
   },
   {
     title: " pharmacy system",
     image: "/pharmacy-1.webp",
-    description:
-      " this was a task manager app woud you like this this was a task manager app woud you like this ",
+    description: `The Pharmacy Management System is a web-based application designed to streamline pharmacy operations.
+It helps manage medicines, track inventory, handle sales records, and organize daily tasks efficiently, improving accuracy and workflow in a pharmacy environment.`,
     technologies: ["nextjs", " tailwindcss ", "postgerSql", "js"],
   },
   {
     title: " Mini medea",
     image: "mini mediaa.jpg",
-    description:
-      " this was a task manager app woud you like this this was a task manager app woud you like this ",
+    description: `Mini Media is a lightweight social media–style web application that allows users to create, manage, and organize posts efficiently.
+The app focuses on simplicity, speed, and an intuitive user interface, making it easy for users to interact with content in a minimal environment.`,
     technologies: ["nextjs", " tailwindcss ", "postgerSql", "js"],
   },
   {
     title: " E-commercs website",
     image: "E-commerce.jpg",
-    description:
-      " this was a task manager app woud you like this this was a task manager app woud you like this ",
-    technologies: ["nextjs", " tailwindcss ", "postgerSql", "js"],
+    description: `This is a modern e-commerce website built to provide a smooth and user-friendly online shopping experience.
+It includes product browsing, cart management, and secure data handling. The project focuses on performance, responsive design, and scalability to support real-world e-commerce needs.`,
+    technologies: ["nextjs", " tailwindcss ", "postgerSql", "ts","sahadc components"],
   },
 ];
 

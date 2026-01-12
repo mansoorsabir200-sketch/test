@@ -1,8 +1,11 @@
+import Link from "next/link";
 import Contact from "./myComponents/Contact";
+import { Email } from "./myComponents/Email";
 import Hero from "./myComponents/Hero";
 import Navbar from "./myComponents/Navbar";
 import Projects from "./myComponents/Projects";
 import Technologeis from "./myComponents/Technologeis";
+
 
 export default function Home() {
   return (
@@ -20,6 +23,7 @@ export default function Home() {
         <Technologeis />
         <Projects />
         <Contact />
+        {/* <Email/> */}
       </div>
     </div>
   );

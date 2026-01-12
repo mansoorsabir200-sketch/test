@@ -4,6 +4,7 @@ import { InstagramIcon } from "../components/InstagramIcon";
 import { WhatsappIcon } from "../components/whatsappIcon";
 import { CONTACT } from "../data";
 import { XIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -15,9 +16,15 @@ export default function Contact() {
         <p className="my-4"> {CONTACT.email}</p>
       </div>
       <div className="flex justify-center space-x-8  ">
-        <WhatsappIcon className="size-6" />
-        <FacebookIcon className="size-6" />
+        <Link href="https://wa.me/93700267728">
+          <WhatsappIcon className="size-6" />
+        </Link>
+        <Link href="https://www.facebook.com/منصور" target="_blank">
+          <FacebookIcon className="size-6" />
+        </Link>
+
         <InstagramIcon className="size-6" />
+
         <XIcon className="size-6" />
       </div>
     </div>

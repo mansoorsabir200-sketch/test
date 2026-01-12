@@ -1,4 +1,7 @@
 import { Github, Instagram, Linkedin, X } from "lucide-react";
+import { FacebookIcon } from "../components/faceBookIcon";
+import Link from "next/link";
+import { WhatsappIcon } from "../components/whatsappIcon";
 
 export default function Navbar() {
   return (
@@ -10,7 +13,6 @@ export default function Navbar() {
             alt="pictuer"
             className="size-16 lg:size-24 mx-3"
           />
-        
         </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
@@ -18,19 +20,19 @@ export default function Navbar() {
           {" "}
           <Linkedin />{" "}
         </a>
-
         <a href="https://github.com/mansoorsabir200-sketch">
           {" "}
           <Github />
-        </a>{" "}
-        <a href="/">
+        </a>
+        <a href="https://www.facebook.com/منصور" target="_blank">
           {" "}
-          <Instagram />{" "}
+          <FacebookIcon />{" "}
         </a>{" "}
         <a href="/">
           {" "}
           <X />{" "}
         </a>
+       
       </div>
     </nav>
   );
