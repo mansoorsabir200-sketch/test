@@ -46,6 +46,7 @@ export const PROJECTS = [
     description: `The Task Manager App is a productivity-focused application designed to help users organize, track, and manage their daily tasks efficiently.
 Users can create tasks, set priorities, update progress, and keep track of deadlines through a clean and user-friendly interface. The app helps improve focus, organization, and time management.`,
     technologies: ["nextjs", " tailwindcss ", "postgerSql", "js"],
+    links: "https://whatsapp",
   },
   {
     title: " pharmacy system",
@@ -53,6 +54,7 @@ Users can create tasks, set priorities, update progress, and keep track of deadl
     description: `The Pharmacy Management System is a web-based application designed to streamline pharmacy operations.
 It helps manage medicines, track inventory, handle sales records, and organize daily tasks efficiently, improving accuracy and workflow in a pharmacy environment.`,
     technologies: ["nextjs", " tailwindcss ", "postgerSql", "js"],
+    links: "https://pharmacy-system-mwvk.vercel.app",
   },
   {
     title: " Mini medea",
@@ -60,13 +62,21 @@ It helps manage medicines, track inventory, handle sales records, and organize d
     description: `Mini Media is a lightweight social media–style web application that allows users to create, manage, and organize posts efficiently.
 The app focuses on simplicity, speed, and an intuitive user interface, making it easy for users to interact with content in a minimal environment.`,
     technologies: ["nextjs", " tailwindcss ", "postgerSql", "js"],
+    links: "https://whatsapp",
   },
   {
     title: " E-commercs website",
     image: "E-commerce.jpg",
     description: `This is a modern e-commerce website built to provide a smooth and user-friendly online shopping experience.
 It includes product browsing, cart management, and secure data handling. The project focuses on performance, responsive design, and scalability to support real-world e-commerce needs.`,
-    technologies: ["nextjs", " tailwindcss ", "postgerSql", "ts","sahadc components"],
+    technologies: [
+      "nextjs",
+      " tailwindcss ",
+      "postgerSql",
+      "ts",
+      "sahadc components",
+    ],
+    links: "https://whatsapp",
   },
 ];
 

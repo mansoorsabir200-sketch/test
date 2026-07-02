@@ -67,7 +67,7 @@ export default function Hero() {
               className=" w-43 text-center rounded-full flex items-center justify-center bg-green-600/55 hover:scale-103 duration-300 text-xl text-stone-100 p-2 gap-2 "
             >
               Contact Us
-              <WhatsappIcon className="size-8"/>
+              <WhatsappIcon className="size-8" />
             </motion.a>
           </div>
         </motion.div>

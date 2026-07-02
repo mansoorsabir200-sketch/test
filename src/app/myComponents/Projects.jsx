@@ -1,6 +1,8 @@
 "use client";
+import { Button } from "@/components/ui/button";
 import { PROJECTS } from "../data";
 import { motion } from "framer-motion";
+import Link from "next/link";
 const iconVariants = () => ({
   initial: { y: -10 },
   animate: {
@@ -50,7 +52,17 @@ export default function Projects() {
                   {tech}
                 </span>
               ))}
+              <Button asChild className=" text-center border-2 border-white/40 hover:scale-105 duration-400  mt-2 block w-[120px]">
+                <Link href={`${project.links} `}>viwe</Link>
+              </Button>
             </div>
+            {/* {PROJECTS.map((link,index)=>{
+              return (
+                <Button key={index}>
+                  <Link href={link.link}>viwe</Link>
+                </Button>
+              );
+            })} */}
           </div>
         ))}
       </motion.div>

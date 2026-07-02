@@ -1,5 +1,4 @@
 "use client";
-import { ExpandIcon } from "lucide-react";
 import { CssIcon } from "../components/cssIcon";
 import { HtmlIcon } from "../components/htmlIcon";
 import { JsIcon } from "../components/jsIcon";
