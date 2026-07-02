@@ -21,24 +21,24 @@ export default function Navbar() {
         </div>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="/">
-          {" "}
-          <Linkedin />{" "}
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Linkedin />
         </a>
         <a href="https://github.com/mansoorsabir200-sketch">
           {" "}
           <Github />
         </a>
         <a href="/">
-          {" "}
-          <X />{" "}
-        </a>{" "}
-
-        <a href="https://www.facebook.com/منصور" target="_blank">
+          <X />
+        </a>
+        <a href="https://www.facebook.com/ منصورصابر" target="_blank">
           {" "}
           <FacebookIcon />{" "}
         </a>{" "}
-
         <a href="/whatsapp.com/0700267728">
           {" "}
           <WhatsappIcon />{" "}
